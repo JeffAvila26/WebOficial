@@ -16,7 +16,7 @@
     </head>
     <body class="antialiased">
 
-<header class="navbar navbar-expand-lg  navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,13 +27,13 @@
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Nosotros</a>
+        <a class="nav-link" href="#contact">Contacto</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Servicios</a>
+        <a class="nav-link" href="#service">Servicio</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="#">Contacto</a>
+        <a class="nav-link" href="#">LoQueSea</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -59,7 +59,7 @@
             @endif
     </form>
   </div>
-</header>
+</nav>
 	
 	
     </body>
