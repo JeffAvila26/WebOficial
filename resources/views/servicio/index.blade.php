@@ -40,14 +40,14 @@
 </style>
 
 <hr>
-<div id="section2">
+<div id="qsomos">
     <h1 class="text-center mb-2 mt-2 ">Desarrollo de sofrware a medida</h1>
     <h3 class="text-center mb-2 mt-2 ">Nos enfocamos en emprendedores, ayudandolos en sus primeros pasos para poder
         crecer</h3>
 </div>
 <div class="container-cards">
     <div class="card-service center border border-success prueba" style="width: 18rem;">
-        <img src="https://www.flaticon.es/svg/static/icons/svg/1484/1484620.svg" class="card-img-top-quehacemos"
+        <img src="https://lh3.googleusercontent.com/proxy/PxFQmR9cGrjjNZe27kdBglHdYbvayODgYX1IgR9JY9CKJoT-OAHHdQzl1T57fAexP-iqm8o7_bOShERfpT19voHDvAWZ4Ppu-CX6UO2Vi4dCoISz0sT8fSQd1so" class="card-img-top-quehacemos"
             alt="...">
         <div class="card-body">
             <h5 class="card-title">Testing</h5>
@@ -57,7 +57,7 @@
     </div>
 
     <div class="card-service center border border-success" style="width: 18rem;">
-        <img src="https://www.flaticon.es/svg/static/icons/svg/3618/3618071.svg" class="card-img-top-quehacemos"
+        <img src="https://lh3.googleusercontent.com/proxy/Khz-FXU6NH2qAj8RDulVcSxoqXxSBUyxUoYtzbT8fwALwZxY03AEkKHLaWmyAq9WtdkCz8PujoRWMMspl3LjD-1xEGKTBycXT5zjXs7ovSQ0ioYvFufZIjM-RnSmU8Arp7fzeYz5cO0KyU0xEssL-cg57o28hnKzilFK0UrqWsS8yiHgM1tGOGRjSq7zAjHKhYiE6w4lwpxvhUDs7Oih2wm0U_lF0sSyQj3GTd0DIGcpWCVl7LM" class="card-img-top-quehacemos"
             alt="...">
         <div class="card-body">
             <h5 class="card-title">Mobile App Development</h5>
@@ -66,7 +66,7 @@
     </div>
 
     <div class="card-service center border border-success" style="width: 18rem;">
-        <img src="https://www.flaticon.es/svg/static/icons/svg/2684/2684593.svg" class="card-img-top-quehacemos"
+        <img src="https://www.rocketlawyer.com/es/es/blog/wp-content/uploads/sites/12/2017/07/foto-arrendamiento-obra.jpg" class="card-img-top-quehacemos"
             alt="...">
         <div class="card-body">
             <h5 class="card-title">Diseño UX/UI</h5>
