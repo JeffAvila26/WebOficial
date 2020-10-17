@@ -1,8 +1,3 @@
-<!-- Bootstrap 4 -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <!--BOTON VOLVER -->
 <!--<div class="container">
     <div class="row">
@@ -11,6 +6,21 @@
         </div>
     </div>
 </div>-->
+
+<style>
+.distancia{
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 20px;
+}
+.submitbtn{
+    margin-left: 38%;
+    
+}
+.input-submit-ctn{
+background-color: #04204e !important;
+}
+    </style>
 <hr>
 <div id="section1">
     <h2 class="text-center mb-5 mt-3">Contacto</h2>
@@ -18,11 +28,11 @@
 <div class="row justify-content-center mt-5">
     <div class="col-md-4">
         <form method="POST" action="{{ route('contacto.store') }}" novalidate>
-            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+            <input type="hidden" name="_token" value="{{ csrf_token() }}">  
             <div class="form-group">
-                <label for="nombre">Nombre y Apellido</label>
+                <label class="distancia" for="nombre">Nombre y Apellido</label>
                 <input type="text" name="nombreyapellido"
-                    class="form-control @error('nombreyapellido') is-invalid @enderror" id="nombreyapellido"
+                    class="form-control distancia @error('nombreyapellido') is-invalid @enderror" id="nombreyapellido"
                     placeholder="Ingresa tu Nombre y Apellido" value="{{ old('nombreyapellido') }}" />
                 @error('nombreyapellido')
                 <span class="invalid-feedback d-block" role="alert">
@@ -32,8 +42,8 @@
             </div>
 
             <div class="form-group">
-                <label for="numtelefono">Número de Teléfono</label>
-                <input type="text" name="numtelefono" class="form-control @error('numtelefono') is-invalid @enderror"
+                <label class="distancia" for="numtelefono">Número de Teléfono</label>
+                <input type="text" name="numtelefono" class="form-control distancia @error('numtelefono') is-invalid @enderror"
                     id="numtelefono" placeholder="Ingresa tu Número de Teléfono" value="{{ old('numtelefono') }}" />
                 @error('numtelefono')
                 <span class="invalid-feedback d-block" role="alert">
@@ -43,8 +53,8 @@
             </div>
 
             <div class="form-group">
-                <label for="email">E-mail</label>
-                <input type="text" name="email" class="form-control @error('email') is-invalid @enderror" id="email"
+                <label class="distancia" for="email">E-mail</label>
+                <input type="text" name="email" class="form-control distancia @error('email') is-invalid @enderror" id="email"
                     placeholder="Ingresa tu E-mail" value="{{ old('email') }}" />
                 @error('email')
                 <span class="invalid-feedback d-block" role="alert">
@@ -54,8 +64,8 @@
             </div>
 
             <div class="form-group">
-                <label for="mensaje">Mensaje</label>
-                <textarea type="text" name="mensaje" class="form-control @error('mensaje') is-invalid @enderror"
+                <label class="distancia" for="mensaje">Mensaje</label>
+                <textarea type="text" name="mensaje" class="form-control distancia @error('mensaje') is-invalid @enderror"
                     id="mensaje" placeholder="Cuentanos tu idea" value="{{ old('mensaje') }}"></textarea>
                 @error('mensaje')
                 <span class="invalid-feedback d-block" role="alert">
@@ -64,9 +74,11 @@
                 @enderror
             </div>
 
-            <div class="form-group mt-3">
-                <input type="submit" class="btn btn-primary rounded" value="Enviar Solcitud">
+            <div class="form-group mt-3 submitbtn">
+                <input type="submit" class="btn btn-primary input-submit-ctn rounded-pill" value="Enviar Solicitud">
             </div>
         </form>
+
+    
     </div>
 </div>
