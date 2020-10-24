@@ -1,27 +1,3 @@
-<!--BOTON VOLVER -->
-<!--<div class="container">
-    <div class="row">
-        <div class="py-4 mt-5 col-12">
-            <a href="/" class="btn btn-primary mr-2 text-white"> Volver</a>
-        </div>
-    </div>
-</div>-->
-
-<style>
-.distancia{
-    margin-left: 10%;
-    width: 80%;
-    border-radius: 20px;
-}
-.submitbtn{
-    margin-left: 38%;
-    
-}
-.input-submit-ctn{
-background-color: #04204e !important;
-}
-    </style>
-<hr>
 <div id="section1">
     <h2 class="text-center mb-5 mt-3">Contacto</h2>
 </div>

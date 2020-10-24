@@ -1,40 +1,4 @@
-
-<style>
-.bg-dark{
-  background-color: #04204e !important;
-}
-.navbar-brand{
-	font-weight: bold;
-	font-family: monospace;
-	font-size: 28px;
-}
-.navbar-dark .navbar-nav .nav-link{
-	font-weight: 700;
-	font-size: 14px;
-	text-transform: uppercase;
-}
-.navbar-dark .navbar-nav .nav-item{
-	margin:0 15px;
-}
-
-
-.smart-scroll{
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-.scrolled-down{
-   transform:translateY(-100%); transition: all 0.3s ease-in-out;
-}
-.scrolled-up{
-   transform:translateY(0); transition: all 0.3s ease-in-out;
-}
-
-
-
-    </style>
+<link rel="stylesheet" href="css/header/header.css">
 
 <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color bg-dark smart-scroll">
 	<div class="container">

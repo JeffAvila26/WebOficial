@@ -25,8 +25,3 @@ Route::get('/contacto', [App\Http\Controllers\ContactoController::class, 'index'
 Route::get('/contacto/todosloscontactos', [App\Http\Controllers\ContactosAdminController::class, 'index'])->name('contactoAdmin.index');
 Route::post('/contacto', [App\Http\Controllers\ContactoController::class, 'store'])->name('contacto.store');
 Route::get('/contacto', 'ContactoController@create')->name('contacto.create');
-
-
-
-
-Route::get('/pedrito', [App\Http\Controllers\pedritoController::class, 'index'])->name('pedrito.index');
