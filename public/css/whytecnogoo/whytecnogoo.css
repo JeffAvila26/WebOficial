@@ -1,0 +1,38 @@
+.principal-title{
+    padding-left: 40%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+   
+}
+.icon-checks{
+    float: left;
+    padding-left: 9%;
+    height:50;
+    width:50;
+}
+.texto-why{
+    margin-left: 17%;
+}
+.title-checks{
+    font-size: 25px;
+}
+#why-tecnogoo{
+    background-color: #04204e;
+    color:white;
+}
+.title-principal-checks{
+    text-align: center;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-checks{
+    padding-top:2%;
+}
+#why-tecnogoo{
+    padding-right: 5%;
+}
+.parradfo-text-checks{
+    padding-left: 7%;
+    font-weight: normal; 
+}
