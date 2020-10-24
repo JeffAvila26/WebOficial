@@ -101,7 +101,7 @@
                 </div>
             </div>
         <div>
-        	<h1 class="footer-derechos">todos los derechos reservados 2019-2020</h1>
+        	<h1 class="footer-derechos">Copyright © 2019 - 2020 Tecnogoo. Todos los derechos reservados.</h1>
     	</div>
     </div>
 </footer>
