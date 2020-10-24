@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>TecnoGoo</title>		
           <link rel="stylesheet" href="css/style.css">
-          <link rel="stylesheet" href="css/divisorline.css">
+          <link rel="stylesheet" href="css/parallax/parallax.css">
+          <link rel="stylesheet" href="css/contacto/contacto.css">
+          <link rel="stylesheet" href="css/footer/footer.css">
           <link rel="stylesheet" href="css/whytecnogoo/whytecnogoo.css">
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,13 +16,11 @@
     <body class="antialiased">
         @include('headers')
         @include('mainContent')
-        @include('client.index')
         @include('whytecnogoo')
-        @include('test')
+        @include('parallax')
         @include('contacto.index')
         @include('footer')		
     </body>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -1,0 +1,15 @@
+.distancia{
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 20px;
+}
+.submitbtn{
+    margin-left: 38%;
+    
+}
+.input-submit-ctn{
+background-color: #04204e !important;
+}
+.invalid-feedback {
+    align-content: center;
+}
