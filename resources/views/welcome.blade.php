@@ -16,6 +16,7 @@
     <body class="antialiased">
         @include('headers')
         @include('mainContent')
+        @include('contacto/contact_us')
         @include('whytecnogoo')
         @include('parallax')
         @include('footer')		
