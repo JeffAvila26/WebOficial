@@ -10,7 +10,7 @@ class ContactController extends Controller
 {
     public function getContact() { 
 
-        return view('contact_us'); 
+        return view('/contacto/contact_us'); 
       } 
  
        public function saveContact(Request $request) { 
