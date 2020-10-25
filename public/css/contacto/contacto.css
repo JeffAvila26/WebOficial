@@ -1,15 +1,12 @@
-.distancia{
-    margin-left: 10%;
-    width: 80%;
-    border-radius: 20px;
-}
 .submitbtn{
-    margin-left: 38%;
-    
+    margin-left: 38%;   
 }
 .input-submit-ctn{
 background-color: #04204e !important;
 }
-.invalid-feedback {
-    align-content: center;
+@media (max-width:773px){
+    .inputs-form-contacto {
+        padding-left: 13%;
+        padding-right: 15%;
+    }
 }
