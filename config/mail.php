@@ -9,6 +9,7 @@ return [
             'verify_peer_name' => false,
         ],
       ],
+      'sendmail' => '/usr/sbin/sendmail -bs',
 
     /*
     |--------------------------------------------------------------------------
